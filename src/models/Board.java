@@ -225,7 +225,7 @@ public abstract class Board implements World2D {
         for (ArrayList<Position2D> diagonal : diagonals) {
             List<Position2D> valuePositions = new ArrayList<>();
             for (Position2D position : diagonal) {
-                System.out.print("[" + position.getX() + "," + position.getY() + "] ");
+//                System.out.print("[" + position.getX() + "," + position.getY() + "] ");
                 if (board[position.getX()][position.getY()].equals(value)) {
                     valuePositions.add(position);
                     if (valuePositions.size() == marksToWin) {

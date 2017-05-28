@@ -234,7 +234,7 @@ public abstract class Board implements World2D {
                     }
                 }
             }
-            System.out.println();
+//            System.out.println();
         }
         return false;
     }
